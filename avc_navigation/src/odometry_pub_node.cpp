@@ -1,7 +1,12 @@
 //subscribe to various sensor messages
 //perform sensor fusion, estimate current odometry values
 //output values (Odometry message)
-//Something here
 
-//IMU values
-//Yes
+
+//IMU values - velocity, acceleration, heading
+
+
+//GPS location and velocity
+
+
+//Hall Effect - wheel speed
