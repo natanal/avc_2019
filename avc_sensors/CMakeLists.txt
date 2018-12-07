@@ -87,7 +87,7 @@ add_library(proximity_sensor src/proximity_sensor.cpp)
 add_executable(encoder_pub_node src/encoder_pub_node.cpp)
 add_executable(imu_pub_node src/imu_pub_node.cpp)
 add_executable(proximity_pub_node src/proximity_pub_node.cpp)
-
+add_executable(odometry_pub_node src/odometry_pub_node.cpp)
 ## Add cmake target dependencies of the executable
 ## same as for the library above
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
